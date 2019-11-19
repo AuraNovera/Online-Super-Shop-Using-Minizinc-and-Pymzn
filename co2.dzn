@@ -1,0 +1,14 @@
+
+products_required = 3;
+
+nearby_stores =8;
+
+particular_product_cost = 
+array2d(1..products_required,1..nearby_stores,
+[
+1.00, 1.20, 2.90,0.00,3.00, 0.0,1.22,10.20,
+0.00,  300.00, 0.00, 100.00, 15.00, 7.00, 1.10, 2.20, 
+0.00,  1.25, 2.90, 3.50, 5.20, 2.80, 200.50, 10.10,
+]);
+
+store_delivery_costs = [12.56, 15.2, 33.5,120.9,120.1,12.3,1.1,10.1];
